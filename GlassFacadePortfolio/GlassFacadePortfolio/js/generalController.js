@@ -1,7 +1,7 @@
 (function ($) {
-    "use strict";
+    "use strict"; // Start of use strict
 
-    // jQuery for page scrolling feature -
+    // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('a.page-scroll').bind('click', function (event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
@@ -26,10 +26,10 @@
         offset: {
             top: 100
         }
-    });
+    })
 
     // Initialize and Configure Scroll Reveal Animation
-    window.sr = new ScrollReveal();
+    window.sr = ScrollReveal();
     sr.reveal('.sr-icons', {
         duration: 600,
         scale: 0.3,
@@ -60,4 +60,5 @@
             tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
         }
     });
-})(jQuery);
+
+})(jQuery); // End of use strict
