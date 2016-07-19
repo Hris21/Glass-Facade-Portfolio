@@ -9,7 +9,7 @@ body {
 }
 
 hr {
-    border-color: #0AB6FF;
+    border-color: #FE8E22;
     border-width: 3px;
     max-width: 50px;
 }
@@ -46,7 +46,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #0AB6FF;
+    background-color: #273E58;
 }
 
 .bg-dark {
@@ -108,12 +108,12 @@ aside {
 
         .navbar-default .nav > li > a:hover,
         .navbar-default .nav > li > a:focus:hover {
-            color: #0AB6FF;
+            color: #FE8B1F;
         }
 
     .navbar-default .nav > li.active > a,
     .navbar-default .nav > li.active > a:focus {
-        color: #0AB6FF !important;
+        color: #FE8B1F !important;
         background-color: transparent;
     }
 
@@ -153,13 +153,13 @@ aside {
         }
 
             .navbar-default.affix .navbar-header .navbar-brand {
-                color: #0AB6FF;
+                color: #FE8E22;
                 font-size: 14px;
             }
 
                 .navbar-default.affix .navbar-header .navbar-brand:hover,
                 .navbar-default.affix .navbar-header .navbar-brand:focus {
-                    color: #00597F;
+                    color: #273E58;
                 }
 
             .navbar-default.affix .nav > li > a,
@@ -169,7 +169,7 @@ aside {
 
                 .navbar-default.affix .nav > li > a:hover,
                 .navbar-default.affix .nav > li > a:focus:hover {
-                    color: #0AB6FF;
+                    color: #FE8E22;
                 }
 }
 
@@ -334,15 +334,15 @@ header {
 
 /* Added Id to all of the icons for easier coloring */
 #diamon-Icon {
-    color: #7FD9FF;
+    color: #501FFE;
 }
 
-#paperPlane-Icon {
-    color: #00B3FF;
+#suitcase-Icon {
+    color: #FE571F;
 }
 
-#newspaper-Icon {
-    color: black;
+#squareTick-Icon {
+    color: #7CDC00;
 }
 
 #heart-Icon {
@@ -411,11 +411,11 @@ header {
 
 .btn-primary {
     color: white;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(254,142,34,1);
     -webkit-transition: all 0.35s;
     -moz-transition: all 0.35s;
     transition: all 0.35s;
-    border: 0.5rem solid #0AB6FF;
+    border: 0.5rem solid rgba(39,62,88,0.4);
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
 }
@@ -427,7 +427,7 @@ header {
     .btn-primary.active,
     .open > .dropdown-toggle.btn-primary {
         color: white;
-        background-color: #0AB6FF;
+        background-color: rgba(39,62,88,0.9);
         border-color: rgba(0,0,0,0.4);
     }
 
