@@ -15,14 +15,14 @@ hr {
 }
 
     hr.light {
-        border-color: white;
+        border-color: #FE8E22;
     }
 
 a {
     -webkit-transition: all 0.35s;
     -moz-transition: all 0.35s;
     transition: all 0.35s;
-    color: #FF220A;
+    color: #FE8E22;
 }
 
     a:hover,
@@ -46,11 +46,11 @@ p {
 }
 
 .bg-primary {
-    background-color: #273E58;
+    background-color: black;
 }
 
 .bg-dark {
-    background-color: #222222;
+    background-color: black;
     color: white;
 }
 
@@ -80,7 +80,7 @@ aside {
 }
 
     .navbar-default .navbar-header .navbar-brand {
-        color: #0AB6FF;
+        color: #FE8B1F;
         font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
         font-weight: 700;
         text-transform: uppercase;
@@ -103,7 +103,7 @@ aside {
         text-transform: uppercase;
         font-weight: 700;
         font-size: 13px;
-        color: #222222;
+        color: black;
     }
 
         .navbar-default .nav > li > a:hover,
@@ -113,13 +113,13 @@ aside {
 
     .navbar-default .nav > li.active > a,
     .navbar-default .nav > li.active > a:focus {
-        color: #FE8B1F !important;
-        background-color: transparent;
+        color: white !important;
+        background-color: rgba(255, 178, 40,0.7);
     }
 
         .navbar-default .nav > li.active > a:hover,
         .navbar-default .nav > li.active > a:focus:hover {
-            background-color: transparent;
+            background-color: rgba(255, 178, 40,0.7);
         }
 
 @media (min-width: 768px) {
@@ -129,7 +129,7 @@ aside {
     }
 
         .navbar-default .navbar-header .navbar-brand {
-            color: rgba(255, 255, 255, 0.7);
+            color: rgba(255, 255, 255, 0.8);
         }
 
             .navbar-default .navbar-header .navbar-brand:hover,
@@ -139,12 +139,13 @@ aside {
 
         .navbar-default .nav > li > a,
         .navbar-default .nav > li > a:focus {
-            color: rgba(255, 255, 255, 0.7);
+            color: black;
         }
 
             .navbar-default .nav > li > a:hover,
             .navbar-default .nav > li > a:focus:hover {
                 color: white;
+                background-color: rgba(255, 178, 40,0.7);
             }
 
         .navbar-default.affix {
@@ -159,7 +160,7 @@ aside {
 
                 .navbar-default.affix .navbar-header .navbar-brand:hover,
                 .navbar-default.affix .navbar-header .navbar-brand:focus {
-                    color: #273E58;
+                    color: black;
                 }
 
             .navbar-default.affix .nav > li > a,
@@ -169,7 +170,7 @@ aside {
 
                 .navbar-default.affix .nav > li > a:hover,
                 .navbar-default.affix .nav > li > a:focus:hover {
-                    color: #FE8E22;
+                    color: white;
                 }
 }
 
@@ -182,8 +183,8 @@ header {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
+    background-image: text-align: center;
     background-image: url('../img/header.jpg');
-    text-align: center;
     color: white;
 }
 
@@ -194,24 +195,30 @@ header {
         width: 100%;
     }
 
-        header .header-content .header-content-inner h1 {
-            font-weight: 700;
-            text-transform: uppercase;
-            margin-top: 0;
-            margin-bottom: 0;
-            font-size: 30px;
+        header .header-content .header-content-inner {
+            background-color: rgba(39,62,88,0.33);
         }
 
-        header .header-content .header-content-inner hr {
-            margin: 30px auto;
-        }
+            header .header-content .header-content-inner h1 {
+                font-weight: 700;
+                text-transform: uppercase;
+                margin-top: 0;
+                margin-bottom: 0;
+                padding: 0.3rem;
+            }
 
-        header .header-content .header-content-inner p {
-            font-weight: 300;
-            color: rgba(255, 255, 255, 0.7);
-            font-size: 16px;
-            margin-bottom: 50px;
-        }
+            header .header-content .header-content-inner hr {
+                margin: 30px auto;
+            }
+
+            header .header-content .header-content-inner p {
+                font-weight: 400;
+                color: rgba(255, 255, 255, 1);
+                font-size: 16px;
+                margin-bottom: 50px;
+                font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+                padding: 0.34rem;
+            }
 
 @media (min-width: 768px) {
     header {
@@ -231,6 +238,7 @@ header {
                 max-width: 1000px;
                 margin-left: auto;
                 margin-right: auto;
+                background-color: rgba(39,62,88,0.37);
             }
 
                 header .header-content .header-content-inner h1 {
@@ -241,17 +249,22 @@ header {
                     font-size: 18px;
                     max-width: 80%;
                     margin-left: auto;
+                    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
                     margin-right: auto;
+                    font-weight: 600;
+                    text-align: center;
                 }
 }
 
 .section-heading {
     margin-top: 0;
+    color: white;
 }
 
 .service-box {
     max-width: 400px;
     margin: 50px auto 0;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 @media (min-width: 992px) {
@@ -262,6 +275,10 @@ header {
 
 .service-box p {
     margin-bottom: 0;
+}
+
+#bulletsContainer {
+    background-color: rgba(39,62,88,0.50);
 }
 
 .portfolio-box {
@@ -275,7 +292,7 @@ header {
         color: white;
         opacity: 0;
         display: block;
-        background: rgba(10,182,255, 0.57);
+        background: rgba(39,62,88,0.7);
         position: absolute;
         bottom: 0;
         text-align: center;
@@ -332,17 +349,23 @@ header {
     margin: 0 auto 20px;
 }
 
+#services {
+    background-image: url('../img/bullets.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
 /* Added Id to all of the icons for easier coloring */
 #diamon-Icon {
-    color: #501FFE;
+    color: white;
 }
 
 #suitcase-Icon {
-    color: #FE571F;
+    color: rgb(8, 7, 6);
 }
 
 #squareTick-Icon {
-    color: #7CDC00;
+    color: #33ad03;
 }
 
 #heart-Icon {
@@ -357,9 +380,10 @@ header {
 }
 
 .btn-default {
-    color: #222222;
-    background-color: white;
-    border-color: white;
+    color: white;
+    background-color: rgba(250, 128, 11, 0.90);
+    border: 2px solid rgba(255,255,255,0.57);
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     -webkit-transition: all 0.35s;
     -moz-transition: all 0.35s;
     transition: all 0.35s;
@@ -371,9 +395,8 @@ header {
     .btn-default:active,
     .btn-default.active,
     .open > .dropdown-toggle.btn-default {
-        color: #222222;
-        background-color: #f2f2f2;
-        border-color: #ededed;
+        color: white;
+        background-color: rgba(39,62,88,0.9);
     }
 
     .btn-default:active,
@@ -411,11 +434,11 @@ header {
 
 .btn-primary {
     color: white;
-    background-color: rgba(254,142,34,1);
+    background-color: rgba(254, 139, 32,0.8);
     -webkit-transition: all 0.35s;
     -moz-transition: all 0.35s;
     transition: all 0.35s;
-    border: 0.5rem solid rgba(39,62,88,0.4);
+    border: 0.5rem solid rgba(255,255,255,0.22);
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
 }

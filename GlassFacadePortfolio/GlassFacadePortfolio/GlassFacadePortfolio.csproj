@@ -66,6 +66,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="img\bullets.jpg" />
+    <Content Include="img\header.jpg" />
     <Content Include="packages.config">
       <SubType>Designer</SubType>
     </Content>
@@ -120,7 +122,6 @@
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
     <Content Include="css\pageStyles.css" />
-    <Content Include="img\header.jpg" />
     <Content Include="img\portfolio\fullsize\1.jpg" />
     <Content Include="img\portfolio\fullsize\2.jpg" />
     <Content Include="img\portfolio\fullsize\3.jpg" />
