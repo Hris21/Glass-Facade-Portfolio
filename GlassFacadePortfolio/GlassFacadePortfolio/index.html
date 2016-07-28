@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Glass Facade ">
-    <meta name="author" content="Portfolio/Presentation">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Hristiyan Andreev">
     <title>Initial Title</title>
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -35,7 +36,7 @@
                         <a class="page-scroll" href="#about">За нас</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Услуги</a>
+                        <a class="page-scroll" href="#services">Предимства</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#portfolio">Проекти</a>
@@ -50,9 +51,14 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">СТЪКЛЕНИ ОКАЧЕНИ ФАСАДИ  И ДОГРАМИ</h1>
+                <h1 id="homeHeading">Консултант за стъклени фасади и дограми</h1>
                 <hr>
-                <p>МОТИВИРАЙТЕ  ИЗБОРА СИ  ЗА СТЪКЛЕНА ОКАЧЕНА ФАСАДА, МОДЕРНИ ПРОЗОРЦИ И ФУНКЦИОНАЛНИ  ВРАТИ ЗА ЛЮБИМОТО СИ ЖИЛИЩЕ, ОФИС ИЛИ ПРОИЗВОДСВЕНО ПОМЕЩЕНИЕ </p>
+                <h2>Избор, енергоефективност и дизайн</h2>
+                <p>
+                    Изборът на фасада или дограма е от голямо значение за цялостния външен вид на сградата и енергоефективността.
+                    Енергоефективната фасада или дограма, трябва да задържа топлина през зимата и да не пропуска отвън топлина през лятото.
+                    Правилното съчетание на фасадни профилни системи, стъкла с различни оттенъци и допълнителни елементи дава възможност да се създадат фасади на сгради в съответствие с всички модерни изисквания на архитектурата.
+                </p>
             </div>
             <div>
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Разберете повече</a>
@@ -62,13 +68,31 @@
     <section class="bg-primary" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Ние имаме каквото е нужно!</h2>
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2 class="section-heading">Добрата подготовка е 50% от успеха </h2>
                     <hr class="light">
-                    <p class="text-faded">
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    <p class="text-faded" id="main-description">
+                        Когато започвате проект е необходимо да се консултирате със специалист в областта.
+                        Ние ще бъдем до вас и ще ви напътстваме в избора. Естествено, при проявени креативност желание от ваша страна, ще насърчим твореца във вас.
+                        Ще ви държим в течение с последните тенденции в областта на окачените стъклени фасади, прозорци, витрини и врати.
+                        Нашите съвременни предложения, ще гарантират иновация и задоволеност, както от наша, така и от ваша страна.
+                        И ако все още не сте открили това което търсите, ние сме насреща.
                     </p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Открии</a>
+                    <p class="text-faded" id="list-header">
+                        Нашите услуги включват още:
+                        <ul style="list-style-type:none" id="main-bullet-container">
+                            <li><i class="fa fa-caret-square-o-right" aria-hidden="true"></i>&nbsp;&nbsp;консултации при готови проекти</li>
+                            <li><i class="fa fa-caret-square-o-right" aria-hidden="true"></i>&nbsp;&nbsp;консултации при стартирал строителен процес</li>
+                            <li><i class="fa fa-caret-square-o-right" aria-hidden="true"></i>&nbsp;&nbsp;консултации при реновации</li>
+                            <li><i class="fa fa-caret-square-o-right" aria-hidden="true"></i>&nbsp;&nbsp;консултации при подготовка на документи за избор на изпълнител</li>
+                            <li><i class="fa fa-caret-square-o-right" aria-hidden="true"></i>&nbsp;&nbsp;надзор при изпълнение</li>
+                        </ul>
+                    </p>
+                    <p class="text-faded">
+                        С нашата консултация, ние целим вашите сигурност и спокойствие, за да улесним вашата работа.
+                        Разчитайте на нас в областта на окачените стъклени фасади, прозорци, витрини и врати.
+                    </p>
+                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Още</a>
                 </div>
             </div>
         </div>
@@ -76,8 +100,8 @@
     <section id="services">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
+                <div class="col-md-6 col-md-offset-3 text-center" id="bullet-heading">
+                    <h3 class="section-heading">Защо ние сме правилния избор?</h3>
                     <hr class="primary">
                 </div>
             </div>
@@ -87,29 +111,29 @@
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-diamond text-primary sr-icons" id="diamon-Icon"></i>
-                        <h3>Брилянс и здравина</h3>
-                        <p class="text-muted">-</p>
+                        <h3>Дизайн и здравина</h3>
+                        <p class="text-advantage">Оразмеряване на елементите на окачената фасада и остъкляване съобразно месните натоварвания.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-suitcase text-primary sr-icons" id="suitcase-Icon"></i>
-                        <h3>Професионализъм и доверие</h3>
-                        <p class="text-muted">-</p>
+                        <h3>Професионализъм и оптимизация</h3>
+                        <p class="text-advantage">Оптимизиране на материалите и изчисляване  на топлопроводимост с цел намаляване разходите на изграждане и комфорт при експлоатация.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-check-square-o text-primary sr-icons" id="squareTick-Icon"></i>
-                        <h3>Сигурност в успеха</h3>
-                        <p class="text-muted">-</p>
+                        <h3>Сигурност и планиране</h3>
+                        <p class="text-advantage">Изготвяне на спецификация и преглед на технически изисквания към документи с цел предотвратяване на неточности.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-heart text-primary sr-icons" id="heart-Icon"></i>
-                        <h3>Всеки клиент е специален</h3>
-                        <p class="text-muted">-</p>
+                        <h3>Отношение и отдаденост</h3>
+                        <p class="text-advantage">Ние се грижим за нашите клиенти и приемаме всеки проект като мисия, да удовлетоврим тяхните очаквания.</p>
                     </div>
                 </div>
             </div>
@@ -119,7 +143,7 @@
         <aside class="bg-dark">
             <div class="container text-center">
                 <div class="call-to-action">
-                    <h2>Описание на портфолио</h2>
+                    <h2>Проекти и портфолио - град Пловдив</h2>
                 </div>
             </div>
         </aside>
@@ -130,9 +154,6 @@
                         <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
                                 <div class="project-name">
                                     Project Name
                                 </div>
@@ -145,9 +166,6 @@
                         <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
                                 <div class="project-name">
                                     Project Name
                                 </div>
@@ -160,9 +178,6 @@
                         <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
                                 <div class="project-name">
                                     Project Name
                                 </div>
@@ -175,9 +190,6 @@
                         <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
                                 <div class="project-name">
                                     Project Name
                                 </div>
@@ -190,9 +202,6 @@
                         <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
                                 <div class="project-name">
                                     Project Name
                                 </div>
@@ -205,9 +214,6 @@
                         <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
                                 <div class="project-name">
                                     Project Name
                                 </div>
@@ -218,28 +224,21 @@
             </div>
         </div>
     </section>
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Описание на портфолио</h2>
-            </div>
-        </div>
-    </aside>
     <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Свържете се с нас!</h2>
+                    <h3 class="section-heading" id="contactUs">Свържете се с нас!</h3>
                     <hr class="primary">
                     <p></p>
                 </div>
                 <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>Phone</p>
+                    <i class="fa fa-phone fa-3x sr-contact" id="phone-icon"></i>
+                    <p id="contactPhone">111 - 777 - 333</p>
                 </div>
                 <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:">Email</a></p>
+                    <i class="fa fa-envelope-o fa-3x sr-contact" id="envelope-icon"></i>
+                    <p id="contactMail"><a href="mailto:">example@gmail.com</a></p>
                 </div>
             </div>
         </div>
@@ -254,6 +253,5 @@
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
     <!-- JavaScript Controller -->
     <script src="js/generalController.js"></script>
-
 </body>
 </html>

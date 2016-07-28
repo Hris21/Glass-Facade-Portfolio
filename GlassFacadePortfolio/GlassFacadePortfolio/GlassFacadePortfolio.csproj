@@ -66,8 +66,21 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="img\bullets.jpg" />
+    <Content Include="img\contact.png" />
     <Content Include="img\header.jpg" />
+    <Content Include="img\portfolio\fullsize\1.jpg" />
+    <Content Include="img\portfolio\fullsize\2.jpg" />
+    <Content Include="img\portfolio\fullsize\3.jpg" />
+    <Content Include="img\portfolio\fullsize\4.jpg" />
+    <Content Include="img\portfolio\fullsize\5.jpg" />
+    <Content Include="img\portfolio\fullsize\6.jpg" />
+    <Content Include="img\portfolio\thumbnails\1.jpg" />
+    <Content Include="img\portfolio\thumbnails\2.jpg" />
+    <Content Include="img\portfolio\thumbnails\3.jpg" />
+    <Content Include="img\portfolio\thumbnails\4.jpg" />
+    <Content Include="img\portfolio\thumbnails\5.jpg" />
+    <Content Include="img\portfolio\thumbnails\6.jpg" />
+    <Content Include="img\bullets.jpg" />
     <Content Include="packages.config">
       <SubType>Designer</SubType>
     </Content>
@@ -122,18 +135,6 @@
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
     <Content Include="css\pageStyles.css" />
-    <Content Include="img\portfolio\fullsize\1.jpg" />
-    <Content Include="img\portfolio\fullsize\2.jpg" />
-    <Content Include="img\portfolio\fullsize\3.jpg" />
-    <Content Include="img\portfolio\fullsize\4.jpg" />
-    <Content Include="img\portfolio\fullsize\5.jpg" />
-    <Content Include="img\portfolio\fullsize\6.jpg" />
-    <Content Include="img\portfolio\thumbnails\1.jpg" />
-    <Content Include="img\portfolio\thumbnails\2.jpg" />
-    <Content Include="img\portfolio\thumbnails\3.jpg" />
-    <Content Include="img\portfolio\thumbnails\4.jpg" />
-    <Content Include="img\portfolio\thumbnails\5.jpg" />
-    <Content Include="img\portfolio\thumbnails\6.jpg" />
     <Content Include="index.html" />
     <Content Include="js\generalController.js" />
     <Content Include="vendor\bootstrap\css\bootstrap.css" />
