@@ -7,6 +7,7 @@ body {
 body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 17px;
+    background-color: #0C0C0C;
 }
 
 hr {
@@ -17,6 +18,10 @@ hr {
 
     hr.light {
         border-color: #FE8E22;
+    }
+
+    hr#separator {
+        max-width: 20%;
     }
 
 a {
