@@ -68,7 +68,7 @@
   <ItemGroup>
     <Content Include="img\contact.png" />
     <Content Include="img\header.jpg" />
-    <Content Include="img\portfolio\fullsize\40.jpg" />
+    <Content Include="img\portfolio\fullsize\4.jpg" />
     <Content Include="img\portfolio\fullsize\1.jpg" />
     <Content Include="img\portfolio\fullsize\2.jpg" />
     <Content Include="img\portfolio\fullsize\3.jpg" />
